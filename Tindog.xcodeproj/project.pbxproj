@@ -35,6 +35,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0038A5A8209FA495009B58EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0038A5A9209FA4AF009B58EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0038A5AA209FA4B8009B58EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		00D0DEBC209E08B0001E20FD = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +75,9 @@
 		00D0DEC7209E08B0001E20FD /* Tindog */ = {
 			isa = PBXGroup;
 			children = (
+				0038A5AA209FA4B8009B58EB /* View */,
+				0038A5A9209FA4AF009B58EB /* Model */,
+				0038A5A8209FA495009B58EB /* Controller */,
 				00D0DEC8209E08B0001E20FD /* AppDelegate.swift */,
 				00D0DECA209E08B0001E20FD /* ViewController.swift */,
 				00D0DECC209E08B0001E20FD /* Main.storyboard */,
@@ -287,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.Tindog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.prueba.Tindog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.Tindog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.prueba.Tindog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
